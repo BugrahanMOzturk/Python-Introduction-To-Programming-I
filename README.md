@@ -50,6 +50,34 @@ X * X W X
 Symbols on the board and their meanings, *R=Rabbit, C=Carrot, A=Apple, P=Poison, M=Meat,*
 *W=Wall and X=Empty*
 
+### Example
+Please enter feeding map as a list:
+
+[[’W’, ’X’, ’W’, ’C’, ’X’], [’A’, ’X’, ’X’, ’A’, ’W’], [’C’, ’X’, ’X’,
+’X’, ’P’], [’X’, ’X’, ’X’, ’X’, ’X’], [’X’, ’*’, ’X’, ’X’, ’X’]]
+
+Please enter direction of movements as a list:
+
+[’U’,’U’,’L’,’U’,’L’]
+
+Your board is:
+
+W|X|W|C|X
+---|---|---|---|---
+A|X|X|A|W
+C|X|X|X|P
+X|X|X|X|X
+X|*|X|X|X
+
+Your output should be like this:
+W|X|W|C|X
+---|---|---|---|---
+*|X|X|A|W
+X|X|X|X|P
+X|X|X|X|X
+X|X|X|X|X
+
+Your score is: 15
 
 
 ### Execute your code on server use the following command in your terminal:
